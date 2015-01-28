@@ -26,7 +26,7 @@ class FooCorporation {
 			if (hours > 40){
 				totalPay = totalPay + ((hours % 40) * (basePay * 1.5));
 			}
-			System.out.println("Total Pay: " + totalPay);
+			System.out.printf("Total Pay for %f hours at $%.2f pay is: $%.2f\n", hours, basePay, totalPay);
 		}
 		
 	}
