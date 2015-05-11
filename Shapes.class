@@ -1,0 +1,49 @@
+
+// main shapes class
+class Shape {
+	public String color;
+	
+	public Shape(String color) {
+		this.color = color;
+	}
+}
+
+// circle class
+class Circle extends Shape {
+	public int radius;
+	
+	public Circle(String color, int radius) {
+		super(color);
+		this.radius = radius;
+	}
+}
+
+// rectangle class
+class Rectangle extends Shape {
+	public int radius;
+	
+	public Rectangle(String color, int radius) {
+		super(color);
+		this.radius = radius;
+	}
+	
+}
+// square class
+class Square extends Shape {
+	public int radius;
+	
+	public Square(String color, int radius) {
+		super(color);
+		this.radius = radius;
+	}
+	
+}
+// triangle class
+class Triangle extends Shape {
+	public int radius;
+	
+	public Triangle(String color, int radius) {
+		super(color);
+		this.radius = radius;
+	}
+}
